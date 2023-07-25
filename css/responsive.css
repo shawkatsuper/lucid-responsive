@@ -1,0 +1,195 @@
+/* ######## CSS Media Query Start  ######## */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* CSS Start */
+    /* ######## Header Part Media Query  ######## */
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+    .header .navbar-nav .nav-item .nav-link{
+        display:inline-block;
+        margin:0;
+    }
+    /* ######## Banner Part Media Query  ######## */
+    .banner{
+        padding: 40px 0px;
+    }
+    .banner h1 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        width:100%;
+        font-size: 16px;
+        line-height: 1.7em;
+    }
+    .banner .btn-double .btn-primary {
+        display: block;
+        width: 60%;
+        margin: 0 auto 15px;
+    }
+    .banner .btn-double .btn-light{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+      /* ######## Feature Part Media Query  ######## */
+    .feature{
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .feature .title h1{
+        font-size: 32px;
+    }
+    .icon-box {
+        width: 100%;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .icon-box h4{
+        font-size: 22px;
+    }
+    .icon-box p{
+        font-size: 16px;
+    }
+ /* ######## About-Long Part Media Query  ######## */
+    .about-long{
+        width: 100%;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .about-long .title h1{
+        font-size:32px;
+    }
+    /* ######## About-Short Part Media Query  ######## */
+    .about-short{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .about-short .title h1{
+        font-size: 32px;
+    }
+    /* ########Testimonial Part Media Query  ######## */
+    .testimonial h1{
+        font-size: 32px;
+    }
+    .testimonial .owl-carousel .item h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .testimonial .owl-carousel .item p {
+        margin: 7px 0px 0px 50px;
+      }
+      .testimonial .owl-carousel .item .client {
+         margin-left: 30px;
+      }
+      /* ######## Eye-Cather Part Media Query  ######## */
+    .eye-catcher{
+        width: 100%;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .eye-catcher h1 span{
+        font-size: 32px;
+    }
+
+    .eye-catcher .btn-double {
+        width: 100%;
+    }
+    .eye-catcher .btn-double .btn-light {
+        
+        display: block;
+        width: 60%;
+        margin: 0 auto 20px;
+    }
+    .eye-catcher .btn-double .btn-primary {
+        
+        display: block;
+        width: 60%;
+        margin: 0 auto 20px;
+    }
+    /* ######## Pricing Part Media Query  ######## */
+    .price-plan {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .price-plan .title h1{
+        font-size: 32px;
+    }
+    .price-plan .price-box {
+        margin: 0px auto 15px;
+    }
+    .price-plan .price-box .price-head h3{
+        font-size: 22px;
+    }
+    .price-plan .price-box .price-head h1{
+        font-size: 50px;
+    }
+    .price-plan .price-box .price-head p{
+        font-size: 16px;
+    }
+    .contact {
+        width: 100%;
+        padding: 30px 0px 0px;
+    }
+    .contact .title h1 {
+       font-size: 32px;
+    }
+    .contact .info p{
+        font-size: 16px;
+    }
+    .contact .info .fa{
+        font-size: 45px;
+    }
+    /* CSS End */
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+    /* CSS Start */
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+    .header .navbar-nav .nav-item .nav-link{
+        display:inline-block;
+        margin:0;
+    }
+    .about-long {
+        width: 100%;
+        padding: 60px 0px 0px;
+    }
+    .about-short .title {
+        padding: 40px 0px 20px;
+    }
+    .price-plan .price-box{
+       margin-bottom: 20px;
+    }
+
+    /* CSS End */
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS Start */
+    
+    .header .navbar-nav .nav-item .nav-link{
+        display:inline-block;
+        margin:0;
+    }
+    
+    .eye-catcher .btn-double {
+        width: 100%;
+        text-align: center;
+    }
+    .eye-catcher .btn-double .btn-light {
+        margin-right: 15px;
+    }
+    
+    .eye-catcher .btn-double .btn-primary{
+       
+    }
+    /* CSS End */
+    }
+    
+    

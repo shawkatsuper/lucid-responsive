@@ -1,0 +1,562 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans 3', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* ######## Global CSS Start ######## */
+.title{
+    width:100%;
+    padding:0px 0px 40px;
+}
+.title h4{
+    color:#008ed6;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.title h1{
+    color:#1a1a1a;
+    font-size: 36px;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin: 15px 0px 25px;
+}
+/* ######## Global CSS End ######## */
+
+/* ######## Header Section CSS Star ######## */
+.header{
+    width:100%;
+    /* height: 100vh; */
+    background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+}
+.header .navbar-nav .nav-item .nav-link{
+    color: #fffefe;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 25px;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    background: url("../images/line.png") bottom center no-repeat;
+    background-size: auto;
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+    background: url("../images/line.png") bottom center no-repeat;
+    background-size: auto;
+}
+.header .navbar-nav .nav-item .active{
+    background: url("../images/line.png") bottom center no-repeat;
+    background-size: auto;
+}
+
+.header .navbar-toggler{
+    background: #08c;
+}
+.header .navbar-toggler .fa-bars{
+    color:#fff;
+}
+/* ######## Header Section Banner Part CSS Start ######## */
+.banner{
+    width: 100%;
+    padding: 150px 0px;
+}
+.banner h4{
+    color:#008ed6;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* margin: 0px 0px 20px; */
+}
+.banner h1{
+    color:#fff;
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.banner p{
+    color:#999999;
+    font-size: 18px;
+    line-height: 1.7em;
+    margin: 0px 0px 20px
+}
+/* ######## Header Section Button Part CSS Start ######## */
+.banner .btn-double{
+    width: 100%;
+    padding: 30px 0px 0px;
+}
+.banner .btn-double .btn-primary{
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: 1px solid #008ed6;
+    background-color:  #008ed6;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 1s;
+    margin: 0px 20px 0px 0px;
+}
+.banner .btn-double .btn-primary:hover{
+    border: 1px solid #008ed6;
+    background-color:  transparent;
+    color:#008ed6;
+}
+.banner .btn-double .btn-primary:focus{
+    border: 1px solid #008ed6;
+    background-color:  transparent;
+    color:#008ed6;
+}
+.banner .btn-double .btn-light{
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: 1px solid #4d4d52;
+    background-color:  transparent;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.banner .btn-double .btn-light:hover{
+    border: 1px solid #008ed6;
+    background-color:  #008ed6;
+    color:#fff;
+}
+.banner .btn-double .btn-light:hover{
+    border: 1px solid #008ed6;
+    background-color:  #008ed6;
+    color:#fff;
+}
+/* ######## Header Section CSS End ######## */
+
+/* ######## Feature Section CSS Start ######## */
+.feature{
+    width: 100%;
+    padding: 80px 0px 40px;
+}
+.feature .title{
+    text-align: center;
+}
+.icon-box{
+    width: 100%;
+    padding: 20px 25px;
+    text-align: center;
+}
+.icon-box h4{
+    color:#1a1a1a;
+    font-size: 24px;
+    line-height: 1.2em;
+    margin: 0px 0px 10px
+}
+.icon-box p{
+    color:#999999;
+    font-size: 18px;
+    line-height: 1.7em;
+   
+}
+.icon-box .icons{
+    border: 1px solid #e0e0e0;
+    border-radius: 100%;
+    height: 80px;
+    width:80px;
+    margin: 0px auto 20px;
+}
+.icon-box .icons .fa{
+    color: #008ed6;
+    font-size: 30px;
+    line-height:80px;
+    text-align: center;
+}
+/* ######## Feature Section CSS End ######## */
+
+/* ######## About-Long Section CSS Start ######## */
+.about-long{
+    width:100%;
+    padding: 80px 0px 0px;
+    border-top: 1px solid #ededed;
+}
+.about-long .title{
+    padding: 45px 0px 25px;
+}
+.about-long p{
+    color:#999999;
+    font-size: 18px;
+    line-height: 1.7em;
+    width: 92%;
+}
+.about-long ul{
+    display: block;
+    padding: 10px 0px;
+}
+.about-long ul li{
+    list-style: none;
+    display: block;
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #1b1b1b;
+    margin: 0px 0px 10px;
+}
+.about-long ul li img{
+    margin: 0px 10px 0px 0px;
+    width: 15px;
+    height: 17px;
+}
+/* ######## About-Long Section CSS End ######## */
+
+/* ######## About-Short Section CSS Start ######## */
+.about-short{
+    width:100%;
+    padding: 30px 0px 50px;
+    background-color: #f2f2f2;
+}
+.about-short .title{
+    padding: 80px 0px 20px;
+}
+.about-short p{
+    color:#999999;
+    font-size: 18px;
+    line-height: 1.7em;
+    /* width: 90%; */
+   padding: 0px 0px 40px;
+}
+
+/* ######## About-Short Section CSS End ######## */
+/* ######## Testimonials Section CSS Start ######## */
+.testimonial{
+    width: 100%;
+    padding:60px 0px;
+    background: url("../images/t-back.png") center top no-repeat;
+    background-size: cover;
+}
+.testimonial .title{
+    text-align: center;
+}
+.testimonial .title h1{
+    color:#fff;
+}
+.testimonial .owl-carousel .item h4{
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.4em;
+    color:#fff;
+    margin: 0px 0px 25px;
+    
+}
+.testimonial .owl-carousel .item .client{
+    width:65px;
+    height:65px;
+}
+.testimonial .owl-carousel .item p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color:#fff;
+    margin: 7px 0px;
+}
+.testimonial .owl-carousel .item p span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7em;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 80px;
+}
+.testimonial .owl-theme .owl-dots .owl-dot span {
+    background: transparent;
+    border: 1px solid #fff;
+}
+.testimonial .owl-theme .owl-dots .owl-dot.active span{
+    background: #fff;
+    width: 15px;
+    height:15px;
+    margin: 10px 7px 3px;
+}
+/* ######## Testimonials Section CSS End ######## */
+/* ######## Eye-Catcher Section CSS Start ######## */
+.eye-catcher{
+    width: 100%;
+    padding: 50px 0PX;
+    background-color: #15141a;
+}
+.eye-catcher h1{
+    font-size: 36px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color:#fff;
+}
+.eye-catcher h1 span{
+    font-size: 36px;
+    font-weight: 300;
+}
+.eye-catcher .btn-double{
+    width: 100%;
+    padding: 5px 0px 0px;  
+}
+.eye-catcher .btn-double .btn-primary{
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: 1px solid #008ed6;
+    background-color:  #008ed6;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 1s;
+    margin: 0px 0px 0px 15px;
+}
+.eye-catcher .btn-double .btn-primary:hover{
+    border: 1px solid #008ed6;
+    background-color:  transparent;
+    color:#008ed6;
+}
+.eye-catcher .btn-double .btn-primary:focus{
+    border: 1px solid #008ed6;
+    background-color:  transparent;
+    color:#008ed6;
+}
+.eye-catcher .btn-double .btn-light{
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: 1px solid #4d4d52;
+    background-color:  transparent;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.eye-catcher .btn-double .btn-light:hover{
+    border: 1px solid #008ed6;
+    background-color:  #008ed6;
+    color:#fff;
+}
+.eye-catcher .btn-double .btn-light:hover{
+    border: 1px solid #008ed6;
+    background-color:  #008ed6;
+    color:#fff;
+}
+/* ######## Eye-Catcher Section CSS End ######## */
+/* ######## Price & Plan Section CSS Start ######## */
+.price-plan{
+    width: 100%;
+    padding: 50px 0px;
+}
+.price-plan .title{
+    text-align: center;
+}
+.price-box{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+.price-box .price-head{
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.price-box .price-head h3{
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#1a1a1a;
+    margin: 0px;
+    transition: 1s;
+}
+.price-box .main-price{
+    width: 100%;
+    padding: 35px 0px;
+    border-bottom:1px solid #e0e0e0;
+    transition: 1s;
+}
+.price-box .main-price h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #1a1a1a;
+    margin: 0px;
+}
+.price-box .main-price h1 sup{
+    font-size: 32px;
+    font-weight: 400;
+    color: #1a1a1a;
+    
+}
+.price-box .main-price p{
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #999999;
+    margin: -10px 0px 0px;
+    transition: 1s;
+}
+.price-box .price-content{
+    width: 100%;
+    padding: 30px 25px;
+}
+.price-box .price-content p{
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 40px
+}
+.price-box .price-content p a{
+    text-decoration: none;
+    color:#008ed6;
+}
+.price-box .price-content .btn-primary{
+    padding: 15px 35px;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    background-color: transparent;
+    color:#008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 1s;
+}
+.price-box:hover .price-head h3{
+    color:#008ed6;
+}
+.price-box:hover .main-price{
+    background-color: #008ed6;
+    
+}
+.price-box:hover .main-price h1{
+    color:#fff;
+}
+.price-box:hover .main-price h1 sup {
+    color:#fff;
+}
+.price-box:hover .main-price p{
+    color:#fff;
+}
+.price-box:hover .price-content .btn-primary{
+    background-color: #008ed6;
+    color:#fff;
+}
+/* ######## Price & Plan Section CSS End ######## */
+/* ######## Contact Section CSS Start ######## */
+.contact{
+    width: 100%;
+    padding: 40px 0px 0px;
+    background-color: #ededed;
+}
+.contact .title{
+    text-align: center;
+}
+.contact .info{
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+}
+.contact .info .fa{
+    font-size: 50px;
+    color:#008ed6;
+    margin: 0px 0px 20px;
+}
+.contact .info p{
+    margin: 0px 0px;
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #999999;
+}
+.contact-form{
+    width: 100%;
+    margin: 80px 0px -70px;
+    padding: 60px 80px 30px;
+    background: #15141a ;
+    position:relative;
+    z-index: 1;
+}
+.contact .contact-form input::placeholder{
+    color:#606062;
+}
+.contact .contact-form textarea::placeholder{
+    color:#606062;
+}
+.contact-form .form-control{
+    padding: 17px 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #606062;
+    font-weight: 700;
+}
+.contact-form .text-right{
+    text-align: right;
+}
+.contact-form .btn-primary{
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top:10px;
+    border: 1px solid #008ed6;
+    background-color: #008ed6;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.contact-form .btn-primary:hover{
+    background-color: transparent;
+    color:#008ed6;
+    border: 1px solid #606062;
+}
+/* ######## Contact Section CSS End ######## */
+/* ######## Footer Section CSS Start ######## */
+.footer{
+    width: 100%;
+    padding:30px 0px;
+    background-color: #14141a;
+}
+.footer .social-icons{
+    width: 100%;
+    text-align: center;
+}
+.footer .social-icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer .social-icons ul li a{
+    margin: 0px 23px 0px 0px;
+    text-align: center;
+    color:#444348;
+    transition: 1s;
+}
+.footer .social-icons ul li a:hover{
+    color:#008ed6;
+    font-size: 20px;
+}
+.footer p{
+    text-align: center;
+    color:#444348;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+}
+/* ######## Footer Section CSS End ######## */
+
